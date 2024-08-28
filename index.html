@@ -11,7 +11,7 @@
     <body>
         <div class="app">
             <h1 class="app__title">TODO App</h1>
-            <form name="add-task">
+            <form class="app__form" name="add-task">
                 <input
                     class="app__task-input"
                     type="text"
@@ -20,7 +20,16 @@
                 />
                 <button class="app__add-button" type="submit">Add</button>
             </form>
-            <div class="app__task-list"></div>
+            <div class="task-list">
+                <div class="task">
+                    <span class="task_title">This is a first task</span>
+                    <button class="task__delete-button">DEL</button>
+                </div>
+                <div class="task">
+                    <span class="task_title">This is a second task</span>
+                    <button class="task__delete-button">DEL</button>
+                </div>
+            </div>
         </div>
     </body>
 </html>

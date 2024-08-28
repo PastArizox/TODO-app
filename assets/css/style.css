@@ -6,14 +6,40 @@
 
 .app {
     margin: 0 auto;
-    max-width: 800px;
+    max-width: 400px;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 10px;
+    font-size: 16px;
 }
 
 .app__title {
     font-size: 2em;
+}
+
+.app__form {
+    width: 100%;
+    display: flex;
+}
+
+.app__task-input {
+    font-size: 1em;
+    width: 100%;
+}
+
+.task-list {
+    width: 100%;
+}
+
+.task {
+    margin: 5px 0;
+    padding: 5px;
+    background-color: wheat;
+}
+
+.task__delete-button {
+    display: none;
 }
